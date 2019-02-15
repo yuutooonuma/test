@@ -1,4 +1,3 @@
-import java.util.HashMap;
 import java.util.Map;
 
 public class MapSample {
@@ -6,7 +5,7 @@ public class MapSample {
 
 
 	public static void main(String[]args){
-		Map<String,String>map=new HashMap<String,String>();
+		Map<String,String>map=newHashMap<String,String>();
 
 
 		//値のセットはputメソッドを利用
@@ -35,8 +34,8 @@ public class MapSample {
 
 
 		//拡張for文を利用してすべてを取得する
-		for(Map.Entry<String,String> e :map.entrySet()){
-			System.out.println(e.getKey()+":"+e.getValue());
+		for(Map.Entry<String,String> e :map.entrySet(){
+			System.out.println(e.getKey()+":"+e.getValue();
 	}
 
 	}
