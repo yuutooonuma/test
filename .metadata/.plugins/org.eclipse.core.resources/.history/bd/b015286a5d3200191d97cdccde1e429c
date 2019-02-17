@@ -1,0 +1,7 @@
+/**
+ * <p>MySQLに接続するためのユーティリティクラスです。<br>
+ * ルートアカウントにてDBに接続されます。</p>
+ */
+public class DBConnector {
+
+}
