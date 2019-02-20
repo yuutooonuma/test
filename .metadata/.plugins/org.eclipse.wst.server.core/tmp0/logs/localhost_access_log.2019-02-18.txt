@@ -62,3 +62,8 @@
 0:0:0:0:0:0:0:1 - - [18/Feb/2019:16:23:11 +0900] "POST /HelloServlet/WelcomeServlet HTTP/1.1" 200 77
 0:0:0:0:0:0:0:1 - - [18/Feb/2019:16:25:46 +0900] "GET /HelloServlet/inquiry.jsp HTTP/1.1" 200 676
 0:0:0:0:0:0:0:1 - - [18/Feb/2019:16:25:49 +0900] "POST /HelloServlet/InquiryServlet HTTP/1.1" 200 108
+127.0.0.1 - - [18/Feb/2019:16:46:10 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [18/Feb/2019:16:46:11 +0900] "GET /HelloServlet/ HTTP/1.1" 200 730
+0:0:0:0:0:0:0:1 - - [18/Feb/2019:16:46:27 +0900] "GET /HelloServlet/TestServlet?username=aaa&password=aaa HTTP/1.1" 200 55
+192.168.11.2 - - [18/Feb/2019:22:15:22 +0900] "GET / HTTP/1.1" 404 1019
+192.168.11.2 - - [18/Feb/2019:22:15:24 +0900] "GET /HNAP1/ HTTP/1.1" 404 1031
