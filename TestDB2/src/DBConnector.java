@@ -15,7 +15,7 @@ public class DBConnector {
 	 * データベース接続URL
 	 */
 	private static String url =
-  "jdbc:mysql://localhost/testdb?autoReconnect=true&useSSL=false";
+  "jdbc:mysql://localhost/testdb_yuto?autoReconnect=true&useSSL=false";
 
 	/**
 	 * データベース接続ユーザー名

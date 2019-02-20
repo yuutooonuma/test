@@ -1,6 +1,6 @@
-drop database if exists testdb;
-create database testdb;
-use testdb;
+drop database if exists testdb_yuto;
+create database testdb_yuto;
+use testdb_yuto;
 create table test_table(
 user_id int,
 user_name varchar(255),
