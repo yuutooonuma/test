@@ -59,5 +59,3 @@ public class MyPageDAO {
 				return result;
 	}
 }
-
-

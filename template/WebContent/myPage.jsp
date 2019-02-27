@@ -24,7 +24,6 @@ body {
 	color: #333;
 	background: #fff;
 }
-
 table {
 	text-align: center;
 	margin: 0 auto;
@@ -35,19 +34,16 @@ table {
 	margin: 30px auto;
 	border: 1px solid #333;
 }
-
 #header {
 	width: 100%;
 	height: 80px;
 	background-color: black;
 }
-
 #main {
 	width: 100%;
 	height: 500px;
 	text-align: center;
 }
-
 #footer {
 	width: 100%;
 	height: 80px;

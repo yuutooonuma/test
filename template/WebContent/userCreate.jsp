@@ -24,7 +24,6 @@ body {
 	color: #333;
 	background: #fff;
 }
-
 table {
 	text-align: center;
 	margin: 0 auto;
@@ -35,19 +34,16 @@ table {
 	margin: 30px auto;
 	border: 1px solid #333;
 }
-
 #header {
 	width: 100%;
 	height: 80px;
 	background-color: black;
 }
-
 #main {
 	width: 100%;
 	height: 500px;
 	text-align: center;
 }
-
 #footer {
 	width: 100%;
 	height: 80px;
@@ -76,7 +72,7 @@ table {
 					</tr>
 					<tr>
 						<td><label>ログインPASS:</label></td>
-						<td><input type="text" name="loginPassWord" value="" /></td>
+						<td><input type="text" name="loginPassword" value="" /></td>
 					</tr>
 					<td><label>ユーザー名</label></td>
 					<td><input type="text" name="userName" value="" /></td>
@@ -84,7 +80,9 @@ table {
 				</s:form>
 			</table>
 			<div>
-				<span>前画面に戻る場合は</span> <a href='<s:url aciton="HomeAction"/>'>こちら</a>
+
+				<span>前画⾯に戻る場合は</span>
+<a href='<s:url action="HomeAction" />'>こちら</a>
 			</div>
 		</div>
 	</div>
