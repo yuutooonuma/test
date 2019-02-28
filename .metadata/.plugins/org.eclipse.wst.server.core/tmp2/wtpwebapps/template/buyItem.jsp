@@ -84,8 +84,8 @@ table {
 					<tr>
 						<td><span>支払方法</span></td>
 						<td><input type="radio" name="pay" value="1"
-							checked="checked">現金払い <input type="radio" name="pay"
-							value="2">クレジットカード</td>
+							checked="checked">現金払い
+							<input type="radio" name="pay" value="2">クレジットカード</td>
 					</tr>
 					<tr>
 						<td><s:submit value="購入" /></td>
