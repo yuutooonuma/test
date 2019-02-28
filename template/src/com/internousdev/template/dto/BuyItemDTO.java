@@ -24,3 +24,4 @@ public class BuyItemDTO {
 		this.id = id;
 	}
 }
+

@@ -5,14 +5,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ログイン画面</title>
+<title>ログイン失敗画面</title>
 </head>
 <body>
-     <s:form action="LoginAction">
-        <s:textfield name="name"/>
-        <s:password name="password"/>
-        <s:submit values="ログイン"/>
-        </s:form>
-
+     <h1>ログインに失敗しました。</h1>
 </body>
 </html>
